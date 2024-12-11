@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid black;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.menu{
+    width: 200px;
+    height: 80vh;
+    background-color:black;
+}
+
+.header-top{
+    height: 80vh;
+    width: 80%;
+    background-color: aqua;
+}
+/* .main{
+    height: 100px;
+    background-color: brown;
+} */
+
+/* <!-- navigazione nav bar verticale--> */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    font-size: 20px;
+    padding: 20px 10px;  
+    color: white;
+}
+.fa-spotify{
+    font-size: 40px;
+}
+
+
+.home_page ul {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+    margin: 10px;
+    list-style: none;
+    color: gray;
+}
+
+.home_page ul a{
+    text-decoration: none;
+    color: gray;
+}
+.home_page ul a:hover{
+    color: white;
+}
+.home_page ul i{
+    font-size: 20px;
+    padding: 3px;
+    
+}
+
+
+.home_page .fa-square-plus{
+    font-size: 40px;
+    
+}
+.home_page .instal .fa-circle-down {
+    font-size: 10px;
+    
+}
+.nome_playlist{
+   font-size: 20px; 
+   color: white;
+}
+.instal{
+    margin-top: 50%;
+}
+
+.instal ul li:first-child{
+    font-size: 10px;
+    
+}
+ /* header scorevole ........ */
+.btn-top{
+    height: 70px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 80%;
+    padding-right: 10px;
+    background-color: rgba( 0, 0, 0, 0.7 )
+        
+}
+.btn-top button{
+   padding: 10px 20px;
+   border-radius: 20px;
+   border-color: white;
+   color: white;
+   background-color: rgba( 0, 0, 0, 0.5 );
+}
+.btn-top button:hover{
+    color: green;
+}
+.nav-header ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 80px;
+}
+.nav-header li{
+    list-style: none;
+    color: gray;
+    font-size: 10px;
+    
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: gray;
+}
+.nav-header a:hover{
+    color: white;
+}
