@@ -6,179 +6,30 @@
     font-family: sans-serif;
 }
 
-.container{
-    display: flex;
-    
-   
-}
-.menu{
-    width: 200px;
-    
-    background-color:black;
-}
-
-.header-top{
-    height: calc(100vh - 170px);
-    overflow: auto;
-    width: 100%;
+.container-main{
+    height: 90vh;
     background-color: #141922;
 
-}
-
-
-/* <!-- navigazione nav bar verticale--> */
-.logo{
     display: flex;
-    align-items: center;
-    gap: 10px;  
-    font-size: 20px;
-    padding: 20px 10px;  
+    
+}
+.container-footer{
+    height: 10vh;
+    background-color: red;
+}
+.sidebar{
+    flex-basis: 10%;
+    background-color: black;
+}
+.main{
+    flex-basis: 90%;
+    overflow: auto;
+}
+.main-header{
+    padding: 20px;
     color: white;
-}
-.fa-spotify{
-    font-size: 40px;
-}
-
-
-.home_page ul {
-    display: flex;
-    flex-direction: column;
-    
-    gap: 15px;
-    margin: 10px;
-    list-style: none;
-    color: gray;
-}
-
-.home_page ul a{
-    text-decoration: none;
-    color: gray;
-}
-.home_page ul a:hover{
-    color: white;
-}
-.home_page ul i{
-    font-size: 20px;
-    padding: 3px;
-    
-}
-
-
-.home_page .fa-square-plus{
-    font-size: 40px;
-    
-}
-.home_page .instal .fa-circle-down {
-    font-size: 10px;
-    
-}
-.nome_playlist{
-   font-size: 20px; 
-   color: white;
-}
-.instal{
-    margin-top: 50%;
-}
-
-.instal ul li:first-child{
-    font-size: 10px;
-    
-}
- /* header scorevole ........ */
-.btn-top{
-    height: 70px;
-    
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
+    text-align: right;
+    position: sticky;
     top: 0;
     z-index: 1;
-    width: 80%;
-    padding-right: 10px;
-    background-color: rgba( 0, 0, 0, 0.7 )
-        
-}
-.btn-top button{
-   padding: 10px 20px;
-   border-radius: 20px;
-   border-color: white;
-   color: white;
-   background-color: rgba( 0, 0, 0, 0.7 );
-}
-.btn-top button:hover{
-    color: green;
-}
-.nav-header ul{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding-top: 80px;
-}
-.nav-header li{
-    list-style: none;
-    color: gray;
-    font-size: 10px;
-    font-size: 15px;
-    
-}
-
-/* menu nav .... prima riga*/
-.nav-header a{
-    text-decoration: none;
-    color: gray;
-}
-.nav-header a:hover{
-    color: white;
-    
-}
-.name-menu{
-    padding: 30px 20px;
-    color: white;
-}
-.container-music,
-.box-music-creato{
-    /* height: 300px; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 0 20px;
-    
-}
-.foto-music{
-    width: 200px;
-    
-
-}
-.foto-music img{
-    width: 100%;
-    
-}
-.info-music{
-    width: 200px;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 5px;
-    color: white;
-}
-.info-music p{
-    color: gray;
-    
-}
-/* menu nav seconda riga... */
-
-.info-name-menu{
-    color: gray;
-    padding: 10px 0;
-}  
-.foto-music-circle img{
-    width: 200px;
-    border-radius: 50%;
-}
-footer{
-    height: 100px;
-    background-color: green;
 }
