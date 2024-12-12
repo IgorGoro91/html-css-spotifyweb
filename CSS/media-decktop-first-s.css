@@ -1,0 +1,71 @@
+@media screen and ( min-width: 480px ) { 
+
+    .sidebar-top-logo img[alt$="small"]{
+        display: none;
+    }
+    .sidebar-top-logo img[alt$="big"]{
+        display: inline-block;
+    }
+
+    .sidebar{
+        min-width: 200px;
+        
+    }
+    .main{
+        width: calc( 100% - 800px);
+        
+    }
+    .sidebar-top-home ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding-left: 7px;
+    }
+    .sidebar-top-home ul span{
+        display: inline;
+
+    }
+    .sidebar-top-playlist-btn a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    .sidebar-top-playlist-btn a i{
+        font-size: 40px;
+        
+    }
+
+    .sidebar-top-playlist {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+        padding: 0 7px;
+    } 
+    .sidebar-top-playlist ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sidebar-bottom a span{
+        display: inline-block;
+        margin-left: 7px;
+    }
+    .sidebar-bottom  hr{
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .sidebar-bottom{
+        display: flex;
+        align-items: flex-start;
+        padding: 0 10px;
+    }
+/* mina del sito........ */
+.main-list ul span{
+    font-size: 10px;
+}
+
+}

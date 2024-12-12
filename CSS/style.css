@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid black;
+    /* outline: 1px solid white; */
     font-family: sans-serif;
 }
 
@@ -20,6 +20,9 @@
 .sidebar{
     flex-basis: 10%;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 .main{
     flex-basis: 90%;
@@ -27,9 +30,126 @@
 }
 .main-header{
     padding: 20px;
-    color: white;
+    
     text-align: right;
     position: sticky;
     top: 0;
     z-index: 1;
+    
+}
+.main-header a{
+    text-decoration: none;
+    color: white;
+          
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+/* barra del menu ------- */
+
+.sidebar-top{
+    height: calc(100% - 100px);
+    
+    
+
+}
+.sidebar-bottom{
+    height: 100px;
+}
+.sidebar-top-logo img[alt$="small"]{
+    display: inline-block;
+}
+.sidebar-top-logo img[alt$="big"]{
+    display: none;
+}
+.sidebar-top-home ul a{
+    text-decoration: none;
+    
+}
+.sidebar-top-home ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.sidebar-top-home ul span{
+    padding-left: 7px;
+    display: none;
+}
+.sidebar-top-home{
+    margin: 20px 0;
+}
+.sidebar-top-playlist {
+    display: none;
+    
+}
+.sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+
+}  
+.sidebar-bottom .fa-circle-user{
+    font-size: 25px;
+} 
+.sidebar-bottom a span{
+    display: none;
+}
+.sidebar-bottom  hr{
+    display: none;
+}
+ 
+/* <!-- main del sito.......... --> */
+.main-list ul span{
+    font-size: 8px;
+}
+.titolo-playlist-discretion{
+    font-size: 10px;
+    padding: 10px 0;
+    
+}
+.main-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;    
+}
+.titolo-playlist{
+    margin: 5px 15px;
+}
+.container-music,
+.container-creato,
+.container-artisti{
+
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 10px;
+    margin: 20px 10px;
+}
+.box-music{
+    width: 120px;
+    
+    
+}
+.foto-music img{
+    width: 100%;
+    
+}
+.info-music{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    
+}
+.container-artisti, .round{
+    border-radius: 50%;
 }
