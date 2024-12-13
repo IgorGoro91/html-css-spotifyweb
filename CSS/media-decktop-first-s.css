@@ -67,5 +67,16 @@
 .main-list ul span{
     font-size: 10px;
 }
-
+/* .container-footer > div{
+    display: flex;
+    align-items: center;
+    
+} */
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    
+}
 }
