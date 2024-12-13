@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
     font-family: sans-serif;
 }
 
@@ -15,7 +15,7 @@
 }
 .container-footer{
     height: 10vh;
-    background-color: red;
+    background-color: #282828;
 }
 .sidebar{
     flex-basis: 10%;
@@ -181,6 +181,13 @@
     
 
 }
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+    
+}
 .box-footer-block1 a{
     display: flex;
     align-items: center;
@@ -238,7 +245,16 @@
     display: flex;
     align-items: center;
 }
-.box-footer-block3 a {
+.box-footer-block3 a  {
     font-size: 10px;
 
+}
+
+
+
+.barra-volume input{
+    width: 50px;
+}
+.slidecontainer input{
+    width: 70px;
 }
