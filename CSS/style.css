@@ -13,7 +13,7 @@
     display: flex;
     
 }
-.container-footer{
+.box-footer{
     height: 10vh;
     background-color: #282828;
 }
@@ -171,21 +171,15 @@
 }
 
 /* <!-- container del footer ..... --> */
-.container-footer{
-    /* flex-basis: calc(100% / 3);
-    display: flex; */
-    
-}
-.box-footer{
-    display: flex;
+
     
 
-}
+
 .box-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5px;
+    
     
 }
 .box-footer-block1 a{

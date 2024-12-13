@@ -67,16 +67,20 @@
 .main-list ul span{
     font-size: 10px;
 }
-/* .container-footer > div{
-    display: flex;
-    align-items: center;
-    
-} */
 .box-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 10px;
-    
+    padding: 0 5px;
+}
+.barra-volume input{
+    width: 70px;
+}
+.slidecontainer input{
+    width: 150px;
+}
+.box-footer-block3 ul a{
+    margin: 0 2px;
+}
+
+.box-footer-block1 img{
+    width: 30px;
 }
 }

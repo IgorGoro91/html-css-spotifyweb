@@ -4,5 +4,22 @@
         overflow: auto;
         
     }
+    .barra-volume input{
+        width: 100px;
+    }
+    .slidecontainer input{
+        width: 200px;
+    }
+    .box-footer-block3 a  {
+        font-size: 15px;
     
+    }
+    .box-footer-block1 img{
+        width: 40px;
+    }
+    .box-footer-block1 .like {
+        display: flex;
+        gap: 10px;
+        
+    }
 }
